@@ -1,0 +1,24 @@
+.mainList
+  margin: 0
+  padding: 0
+
+.mainListItem
+  display: flex
+  justify-content: space-between
+  align-items: baseline
+
+  &:not(:last-of-type)
+    margin-bottom: 10px
+
+.mainListItemText
+  font-size: 1.2rem
+  cursor: pointer
+
+.mainListItemTextChecked
+  color: #ccc
+  text-decoration: line-through
+
+.mainListItemClose
+  margin-left: 10px
+  color: #f00
+  cursor: pointer
